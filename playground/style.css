@@ -1,0 +1,30 @@
+
+
+#outer-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 8px;
+}
+#outer-grid > div {
+  background-color: limegreen;
+  color: white;
+  font-size: 4vw;
+  padding: 8px;
+}
+#inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-gap: 5px;
+}
+#inner-grid > div {
+  background: lightgreen;
+  padding: 8px;
+}
+
+/* .item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+} */
