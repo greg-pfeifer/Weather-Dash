@@ -178,14 +178,18 @@ footer div {
 }
 }
 
+@media only screen and (max-width:500px) {
+
+body {
+  text-align: center;
+}
+}
+
 @media only screen and (max-width: 400px) {
   hr {
     display: block;
   }
 
-  body {
-    text-align: center;
-  }
 
   #current-weather p {
     padding: 0 30% 0 30%;
